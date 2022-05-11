@@ -1,0 +1,11 @@
+framework module HelloWideSDK {
+  umbrella header "HelloWideSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module HelloWideSDK.Swift {
+    header "HelloWideSDK-Swift.h"
+    requires objc
+}
