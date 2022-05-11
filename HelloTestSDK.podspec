@@ -7,17 +7,17 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "HelloSDK"
+  spec.name         = "HelloTestSDK"
   spec.version      = "0.0.1"
-  spec.summary      = "HelloSDK"
+  spec.summary      = "HelloTestSDK"
   spec.description  = <<-DESC
-  HelloSDK is is a WebRTC compatible, free and Open Source video conferencing system that provides browsers and mobile applications with Real Time Communications capabilities.
+  HelloTestSDK is is a WebRTC compatible, free and Open Source video conferencing system that provides browsers and mobile applications with Real Time Communications capabilities.
                    DESC
-  spec.homepage     = "https://github.com/ardywijaya/HelloSDK"
+  spec.homepage     = "https://github.com/ardywijaya/HelloTestSDK"
   spec.license      = 'MIT'
   spec.author       = { "Ardy Wijaya" => "ardy.wijaya@primecash.co.id" }
   spec.platform     = :ios, "12.0"
   spec.ios.deployment_target = "12.0"
-  spec.source       = { :git => "https://github.com/ardywijaya/HelloSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ardywijaya/HelloTestSDK.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'Frameworks/HelloWideSDK.xcframework', 'Frameworks/WebRTC.xcframework'
 end
